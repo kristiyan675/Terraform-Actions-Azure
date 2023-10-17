@@ -35,7 +35,7 @@ jobs:
 
     # Generate Terraform execution plan
     - name: Terraform Plan
-      run: terraform plan -out=tfplan.out
+      run: terraform plan -out=tfplan
     
     #Save terraform plan
     - name: Archive Terraform Plan
