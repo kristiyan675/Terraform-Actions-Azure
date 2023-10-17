@@ -65,7 +65,7 @@ jobs:
     #Download file
     - name: Download Terraform Plan artifact
       uses: actions/download-artifact@v2
-      width:
+      with:
         name: tfplan
     
     - name: Apply the plan
